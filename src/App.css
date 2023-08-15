@@ -1,0 +1,220 @@
+#root {
+  width: 100%;
+}
+
+
+header {
+  height: 600px;
+  background-image: url("https://creatorverse-production.up.railway.app/static/media/banner.de5659898d3bfc5eb8ea.jpg");
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid rgb(66, 74, 89);
+  text-align: center;
+  padding-top: 8em;
+}
+
+header h1 {
+  font-family: 'Sono';
+  font-size: 8vw;
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.main-header {
+  font-family: 'Sono';
+  font-size: 8vw;
+}
+
+nav li {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: center;
+}
+
+.ShowCreators {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.a {
+  text-decoration: none;
+  color: '#fff';
+  padding: 6px;
+}
+
+button,
+input[type=button],
+[role=button] {
+  background-color: rgb(81, 133, 180);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-family: Poppins;
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  height: 3em;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+}
+
+[role=button] {
+  width: 15em;
+}
+
+.content-creator-card {
+  border: 2px solid rgb(63, 75, 89);
+  background-size: cover;
+  background-position-y: 20%;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  margin: 10px;
+  width: 400px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.content-creator-card article {
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  height: 100%;
+  background-image: linear-gradient(45deg, black, transparent);
+}
+
+.content-creator-card article h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.5em;
+  color:rgb(81, 133, 180);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  margin: 0px;
+  margin-bottom: 18px;
+}
+
+.lower-section {
+  width: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.ViewCreator {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 3rem;
+  width: 70%;
+}
+
+.modify-creator {
+  display: flex;
+  grid-column: span 2;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top: 80px;
+  height: max-content;
+}
+
+.modify-creator button {
+  width: 15em;
+  margin-bottom: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.creator-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-items: start;
+}
+
+.creator-info h1 {
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 18px;
+}
+.creator-image img {
+  height: 400px;
+  width: 400px;
+  border: 2px solid var(--primary);
+  border-radius: var(--border-radius);
+  object-fit: cover;
+}
+
+.AddEditCreator {
+  width: 40%;
+}
+
+form p {
+  font-size: 0.6em;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+form label {
+  font-size: 20px;
+  text-align: left;
+}
+
+label {
+  font-size: 20px;
+}
+
+label p {
+  margin: 0px;
+}
+
+input, textarea {
+  font-size: 0.8em;
+}
+
+.editor-form {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content:left;
+}
+
+.editor-form input {
+  margin-bottom: 1rem;
+}
+
+.editor-form textarea {
+  margin-bottom: 1rem;
+}
