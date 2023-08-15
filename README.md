@@ -46,8 +46,6 @@ GIF created with ScreenToGIF
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
-
 While working on my project, I faced problems related to page routing. Despite having prior experience with setting up react router, it had been months since I had used it. I attempted to follow an online tutorial, but even after following the steps, I couldn't get the routing to function correctly. Eventually, I found a solution: in my main.tsx file, I wrapped the `<App />` component with a `<Router>` instead of a `<React.StrictMode>` component, which resolved the issue. This change enabled me to successfully use the useParams() hook to access and utilize URL parameters as needed.
 
 ## License
